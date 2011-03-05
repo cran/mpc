@@ -1,0 +1,7 @@
+# -*- Makefile -*-
+
+# Link with GMP  (GNU Multiple Precision)
+# and  with MPFR (Multiple Precision Floating point Reliable) Libraries
+#
+PKG_LIBS = -lmpc -lmpfr -lgmp
+#PKG_CFLAGS = -Wall -pedantic
